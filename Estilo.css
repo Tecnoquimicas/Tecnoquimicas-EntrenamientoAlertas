@@ -1,0 +1,575 @@
+@font-face {
+  font-family: 'Neo Sans Intel';
+  src: url('Tipografias/NeoSansIntel.ttf');
+}
+
+@font-face {
+  font-family: 'Neo Sans Intel Medium';
+  src: url('Tipografias/NeoSansIntel-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Neo Sans Intel Light';
+  src: url('Tipografias/NeoSansIntel-Light.ttf');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+.cuadroAzul{
+background-color: #E8F1F8;
+width:82%;
+margin-left: 17%;
+height: 630px;
+position: absolute;
+  z-index: -1;
+  border-radius: 6px;
+
+}
+
+a{
+  font-family: 'Neo Sans Intel Medium';
+  color: #ffffff;
+  font-size: 15pt;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.relacionesLab{
+  width:83%;
+  margin-left: 16%;
+  text-align: center;
+}
+
+.lineaLimite{
+  width: 31%;
+  height: 1.5px;
+  background-color: #0f6db2 ;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+
+.cabezote{
+
+  background-color: #0f6db2;
+  height: 100px;
+  width: 100%;
+  display: flex;
+
+}
+
+.CabezoteContIzq{
+
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.CabezoteContDer{
+
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+}
+
+.flechaArriba{
+transform: translateX(-200px) translateY(165px);
+}
+
+.flechaAbajo{
+  transform: translateX(-200px) translateY(-30px);
+}
+
+.flechaArribaDos{
+transform: translateX(-30px) translateY(115px);
+}
+
+.flechaAbajoDos{
+  transform: translateX(-30px) translateY(-37px);
+}
+
+.vl {
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 45px;
+  margin-left: 20px;
+}
+
+.subTag{
+
+  font-family: 'Neo Sans Intel Light';
+  color: #ffffff;
+  font-size: 13pt;
+}
+
+.subTagGris{
+  font-family: 'Neo Sans Intel';
+  color: #666666;
+  font-size: 18px;
+
+}
+
+
+.link{
+  font-family: 'Neo Sans Intel Light';
+  color: #ffffff;
+  font-size: 13pt;
+  position: relative;
+}
+
+.ayudaCover{
+  position: relative;
+}
+
+.link:after, .ayudaCover:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.link:hover:after, .ayudaCover:hover:after{ 
+  width: 100%; 
+  left: 0; 
+}
+
+.titulo{
+
+  background-color: #E8F1F8;
+  margin-top: -15px;
+height: 120px;
+text-align: center;
+
+
+}
+
+h1{
+
+  font-family: 'Neo Sans Intel';
+  color: #0f6db2;
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+#aNav{
+  font-family: 'Neo Sans Intel Light';
+  color: #0f6db2;
+  font-size: 13pt;
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+#aNav:hover{
+  color: #FC294C;
+}
+
+
+.imagen{
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+
+p{
+  font-family: 'Neo Sans Intel Light';
+  color: #000000;
+  font-size: 12pt;
+  text-align: left;
+}
+
+h2{
+
+  font-family: 'Neo Sans Intel Medium';
+  color: #ffffff;
+  font-size: 25pt;
+  text-align: center;
+  text-shadow: 2px 2px 4px #0000002a;
+
+}
+
+h3, .ayudaCover, .subTituloCover{
+
+  font-family: 'Neo Sans Intel Light';
+  color: #ffffff;
+  font-size: 17pt;
+  display: inline-flex;
+
+}
+
+h5{
+  font-family: 'Neo Sans Intel';
+  color: #0f6db2;
+  font-size: 15pt;
+  text-align: left;
+  margin: 40px 0px 0px 0px;
+
+}
+
+h6{
+
+  font-family: 'Neo Sans Intel Light';
+  color: #0f6db2;
+  text-align: left;
+  font-size: 12pt;
+  margin: 0px;
+
+}
+
+.conText{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.button{
+
+  font-family: 'Neo Sans Intel Medium';
+  background-color: #0f6db2;
+  color: #ffffff;
+  font-size: 17px;
+  border-style: none;
+  padding: 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  height: 70;
+  width: 210px;
+  margin-bottom: 60px;
+  margin-right: 20px;
+}
+
+.button:hover{
+  background-color: #FC294C;
+}
+
+.btnNomina{
+
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  margin-left: 60px;
+}
+
+.btnBlancos{
+  font-family: 'Neo Sans Intel Light';
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 12px;
+text-align: left;
+height: 110px;
+width: 190px;
+text-align: center;
+}
+
+.btnVerde{
+
+background-color: #39B54A;
+height: 110px;
+width: 190px;
+
+}
+  
+.btnBlancos:hover{
+  background-color: #B5DCF4;
+}
+
+
+.nivelUno{
+
+  text-align: center;
+  margin-top: -50px;
+}
+
+.nivelDos{
+  height: 200px;
+  text-align: center;
+margin-top: 60px;
+
+}
+
+.nivelTres{
+
+  text-align: center;
+  
+  }
+
+.textual{
+
+text-align: left;
+width: 80%;
+margin: 0 auto;
+}
+
+
+/* Ventana modal */
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 65%;
+  border-radius: 10px;
+  text-align: center;
+  height:6200px;
+}
+
+/* The Close Button */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -60px;
+}
+
+.close:hover,
+.close:focus {
+  color: #FC294C;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*  COVERS  */
+
+.coverEnrola{
+
+height: 400px;
+background-image: url('Imagenes/EnrolamientoIMG.jpg');
+background-size: cover;
+border-radius: 6px 6px 0px 0px;
+text-align: center;
+
+}
+
+.coverTurnos{
+
+  height: 400px;
+  background-image: url('Imagenes/TurnosIMG.jpg');
+  background-size: cover;
+  border-radius: 6px 6px 0px 0px;
+  text-align: center;
+  
+  }
+
+.coverNovedades{
+
+  height: 400px;
+  background-image: url('Imagenes/NovedadesIMG.jpg');
+  background-size: cover;
+  border-radius: 6px 6px 0px 0px;
+  text-align: center;
+  
+  }
+
+  .coverIngreso{
+
+    height: 400px;
+    background-image: url('Imagenes/IngresosIMG.jpg');
+    background-size: cover;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    
+    }
+
+    .coverNomina{
+
+      height: 400px;
+      background-image: url('Imagenes/NominaIMG.jpg');
+      background-size: cover;
+      border-radius: 6px 6px 0px 0px;
+      text-align: center;
+      
+      }
+
+.cabezoteCover{
+  justify-content: space-between;
+}
+
+.video{
+
+  margin-top: 20px;
+  border-radius: 6px;
+
+}
+
+li{
+
+  list-style: none;
+  display: block;
+
+}
+
+li:before {
+  content: "";
+  display: block;
+  background: url("Imagenes/Descarga.png") no-repeat;
+  width: 30px;
+  height: 20px;
+  float: left;
+  margin-right: -15px;
+  margin-top: 3px;
+}
+
+.descargables{
+  font-family: 'Neo Sans Intel Light';
+  color: #0f6db2;
+  font-size: 20px;
+}
+
+.descargables:hover{
+  color: #FC294C;
+}
+
+/*MOSTRAS MAS*/
+
+#more {display: none;}
+#moreNormas, #moreNormasNovedades {display: none;}
+#myBtn, #myBtnNormas, #myBtnNormasNovedades{
+
+width: 120px;
+height: 30px;
+border-radius: 15px;
+font-family: 'Neo Sans Intel';
+  color: #ffffff;
+  font-size: 12pt;
+  margin-left: 30px;
+
+}
+
+/* HTML AYUDA */
+
+.cuadroAyuda{
+
+background-color: #E8F1F8;
+width: 50%;
+height: 500px;
+margin: 0 auto;
+border-radius: 6px;
+
+}
+
+.tituloAyuda{
+
+  color: #0f6db2;
+  font-size: 20px;
+
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1664px) {
+  .divMapa {
+    display: none;
+  }
+
+  .advertencia{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1665px) {
+ 
+  .advertencia{
+    display: none;
+  }
+}
+
+
+/* POP UPS */
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#myPopup{
+
+  font-family: 'Neo Sans Intel';
+  color: #ffffff;
+  font-size: 12pt;
+
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
